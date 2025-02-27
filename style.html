@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+      
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main page</title>
+		<link rel="stylesheet" href="all_styles.css">
+        <style>
+            p.italic {
+                font-style: italic;
+            }
+
+            .button-container {
+                display: flex;
+                gap: 10px;
+            }
+
+            .myButton {
+                border-radius: 15px;
+                background: #73AD21;
+                padding: 10px;
+                width: 120px; 
+                height: 40px; 
+                border: none;
+                color: white;
+                cursor: pointer;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px; 
+            }
+
+            img {
+                margin-bottom: 10px; 
+            }
+        </style>
+    </head>
+<body>
+    <h1 style="background-color:LightGray;">What do I want to get from studying at Hillel It School?</h1>
+    <p class="italic">I'm Sergey Eremin, a student at Hillel It School. I am applying for a red diploma. After graduation 
+        training, I plan to get a job as a Trainee/Junior Manual QA Engineer in a company
+        engaged in software development.
+    </p>
+    <img src="pages/images/My foto-2 .jpg" alt="My photo-2" width="240" height="300">
+    
+    <div class="button-container">
+        <button type="button" class="myButton" onclick="window.location.href='pages/gallery.html';">My photos</button>
+        <button type="button" class="myButton" onclick="window.location.href='pages/contacts.html';">My contact data</button>
+    </div>
+</body>
+</html>
